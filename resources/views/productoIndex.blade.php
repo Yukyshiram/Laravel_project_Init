@@ -16,7 +16,7 @@
     </header>
 
     @if (session()->has('success'))
-        <p>C borro XD</p>
+        <p>Producto Eliminado exitosamente</p>
     @endif
     <h1>Productos</h1>
 

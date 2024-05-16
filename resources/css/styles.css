@@ -77,3 +77,8 @@ a:hover {
 .delete-button:hover {
     background-color: #86242e;
 }
+
+p {
+    text-align: center;
+    color: red;
+}
