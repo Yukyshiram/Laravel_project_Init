@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #dddedf;    
+}
+
+h1 {
+    text-align: center;
+}
+
+#formulario {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.iform {
+    margin-bottom: 20px;
+}
+
+.iform label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.iform input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.iset {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.iset:hover {
+background-color: antiquewhite;
+}
+
+a {
+    color: rgba(0, 0, 0, 0.5); /* Cambia el color a negro translúcido */
+    transition: color 0.3s ease; /* Agrega una transición suave al cambiar el color */
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+    margin: auto;
+
+}
+
+a:hover {
+    color: rgb(255, 255, 255); /* Cambia el color a negro sólido al pasar el mouse */
+    background-color: #5a6268;
+    margin: 0 auto;
+}
+
+.iform select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+.iform label {
+    display: block;
+    margin-top: 5px;
+}
